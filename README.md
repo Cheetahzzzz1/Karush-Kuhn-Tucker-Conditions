@@ -5,3 +5,11 @@
 This project solves a constrained entropy maximization problem using both primal and dual formulations. The objective is to verify strong duality and the optimality of the solution by checking the Karush-Kuhn-Tucker conditions.
 
 # Problem Statement
+
+We are given the following optimization problem :
+
+Minimize : $f_0(x) = \sum_{i=1}^{n}x_{i}log(x_{i})$
+
+Subject To :
+
+-> $Ax <= b$
