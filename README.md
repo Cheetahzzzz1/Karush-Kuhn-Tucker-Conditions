@@ -17,3 +17,23 @@ Subject To :
 -> $1^T = 1$
 
 -> $x \epsilon R^{n}_{++}$
+
+For this assignment :
+
+$$
+A = \begin{bmatrix}
+4 & 0.9 & 2 \\
+1.3 & 0.6 & 6
+\end{bmatrix}
+$$
+
+$$
+b = \begin{bmatrix}
+1.2 \\
+0.8
+\end{bmatrix}
+$$
+
+$$
+n = 3
+$$
