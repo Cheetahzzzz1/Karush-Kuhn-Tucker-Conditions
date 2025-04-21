@@ -13,3 +13,7 @@ Minimize : $f_0(x) = \sum_{i=1}^{n}x_{i}log(x_{i})$
 Subject To :
 
 -> $Ax <= b$
+
+-> $1^T = 1$
+
+-> $x \epsilon R^{n}_{++}$
