@@ -37,3 +37,7 @@ $$
 $$
 n = 3
 $$
+
+# Part (a) - Primal Problem
+
+We use cvx
