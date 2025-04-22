@@ -40,4 +40,9 @@ $$
 
 # Part (a) - Primal Problem
 
-We use cvx
+We use cvxpy to solve the entropy maximization problem. Since entropy is concave, we maximize $\sum entr(x_i)$, which is equivalent to minimizing 
+$\sum x_ilog(x_i)$.
+
+<ins> Output </ins>
+
+1. Optimal $x^*$: [0.08766, 0.88666, 0.02567]
