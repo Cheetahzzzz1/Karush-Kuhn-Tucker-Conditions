@@ -46,3 +46,11 @@ $\sum x_ilog(x_i)$.
 <ins> Output </ins>
 
 1. Optimal $x^*$: [0.08766, 0.88666, 0.02567]
+
+2. Primal optimal value: -0.4141
+
+# Part (b) - Dual Problem
+
+We Solve the dual formulation:
+
+Maximize 
