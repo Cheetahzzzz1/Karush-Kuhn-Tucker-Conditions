@@ -53,4 +53,6 @@ $\sum x_ilog(x_i)$.
 
 We Solve the dual formulation:
 
-Maximize 
+Maximize : $(-b)^T\lambda - log(\sum^{n}_{i=1} e^{(-a)^{T}\lambda})$
+
+Subject To : $\lambda >= 0$
