@@ -56,3 +56,23 @@ We Solve the dual formulation:
 Maximize : $(-b)^T\lambda - log(\sum^{n}_{i=1} e^{(-a)^{T}\lambda})$
 
 Subject To : $\lambda >= 0$
+
+<ins> Output </ins>
+
+1. Optimal $\lambda^{*}$ : [0.62717, 0.52817]
+
+2. Dual optimal value : -0.4141
+
+This matches the primal result, confirming strong duality.
+
+# Part (c) - KKT Conditions Verification
+
+We validate the following conditions:
+
+<ins> 1. Primal Feasibility:</ins>
+
+$Ax^* \leq b,\ \sum x_i^* = 1$
+
+<ins> 2. Dual Feasibility:</ins>
+
+$\lambda^{*} >= 0$
