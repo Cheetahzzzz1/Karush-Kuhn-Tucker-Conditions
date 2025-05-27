@@ -76,3 +76,31 @@ $Ax^* \leq b,\ \sum x_i^* = 1$
 <ins> 2. Dual Feasibility:</ins>
 
 $\lambda^{*} >= 0$
+
+<ins> 3. Stationarity:</ins>
+
+$\nabla f_0(x) + A^T \lambda + \nu \mathbf{1} = 0$
+
+All components of $\nu^*$ are approximately -1.76105.
+
+<ins> 4. Complementary Slackness:</ins>
+
+$\lambda_i (A x - b)_i = 0$
+
+Products are near zero: [6.27e-10, 7.92e-9]
+
+All Conditions are satisfied, confirming optimality of the solution.
+
+# Tools Used
+
+1. Python 3.10
+
+2. cvxpy for convex optimization.
+
+3. scipy.optimize for solving the dual problem.
+
+4. numpy for matrix operations.
+
+# Conlusion
+
+The primal and dual solutions match, confirming strong duality. all KKT conditions are satisfied, verifying that the computed solutions are optimal for the entropy maximization problem under the given constraints.
