@@ -95,11 +95,11 @@ All Conditions are satisfied, confirming optimality of the solution.
 
 1. Python 3.10
 
-2. cvxpy for convex optimization.
+2. **cvxpy** for convex optimization.
 
-3. scipy.optimize for solving the dual problem.
+3. **scipy.optimize** for solving the dual problem.
 
-4. numpy for matrix operations.
+4. **numpy** for matrix operations.
 
 # Conlusion
 
